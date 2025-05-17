@@ -1,7 +1,6 @@
 # transcribe-srt
 
-`transcribe-srt` is a simple CLI tool that batches MP4 videos in a directory (or a single file), splits long audio into manageable chunks, and uses OpenAI’s Whisper API to generate timestamped SRT subtitle files. If a matching `.srt` already exists, it skips processing to avoid duplicates.
-
+`transcribe-srt` is a simple CLI tool that batches MP4 videos in a directory (or a single file), splits long audio into manageable chunks, and uses OpenAI’s Whisper API to generate timestamped SRT subtitle files.
 ---
 
 ## 🔧 Requirements
@@ -81,6 +80,7 @@ poetry run gen-sub ./videos/ ./subtitles/ 120
  
 - OpenAI API usage is **metered** . Check your account balance before batch-processing large video collections.
 - The tool only supports MP4 inputs.
+- If a matching `.srt` already exists, it skips processing to avoid duplicates.
 
 ---
 
