@@ -6,7 +6,7 @@
 
 ## 🔧 Requirements
 
-- Python ≥ 3.8  
+- Python ≥ 3.13  
 - [ffmpeg](https://ffmpeg.org/) / [ffprobe](https://ffmpeg.org/ffprobe.html) installed on your system  
 - An OpenAI API key  
 - [Poetry](https://python-poetry.org/) for dependency management
