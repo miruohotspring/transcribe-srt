@@ -87,4 +87,4 @@ poetry run gen-sub ./videos/ ./subtitles/ 120
 
 ## 📄 License 
 
-This project is released under the MIT License. See [LICENSE](https://chatgpt.com/c/LICENSE)  for details.
+This project is released under the MIT License. See [LICENSE](/LICENSE)  for details.
